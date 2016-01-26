@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>PersonalWebsite</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>PersonalWebsite</title>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
 
-<%= yield %>
+    <div class = "nav-bar">
+      <%= link_to "Home", "#" %>
+      <%= link_to "About Me","#" %>
+      <%= link_to "Blogs", "#" %>
+      <%= link_to "Contact", "#" %>
+    </div>
 
-</body>
+    <div class = "login">
+      <% if current_user %>
+        <%= link_to 'Logout', logout_path, method: "delete" %>
+      <% else %>
+        <%= link_to "Login", new_session_path %>
+      <% end %>
+    </div>
+
+    <%= yield %>
+
+    <div  id = "footer" class = "nav-bar">
+      <%= link_to "Home", "#" %>
+      <%= link_to "About Me","#" %>
+      <%= link_to "Blogs", "#" %>
+      <%= link_to "Contact", "#" %>
+    </div>
+
+  </body>
 </html>
