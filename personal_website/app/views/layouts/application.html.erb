@@ -15,6 +15,14 @@
       <%= link_to "Contact", "#" %>
     </div>
 
+    <div class = "login">
+      <% if current_user %>
+        <%= link_to 'Logout', logout_path, method: "delete" %>
+      <% else %>
+        <%= link_to "Login", new_session_path %>
+      <% end %>
+    </div>
+
     <%= yield %>
 
     <div  id = "footer" class = "nav-bar">
