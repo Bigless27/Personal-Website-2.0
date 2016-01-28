@@ -9,28 +9,18 @@
   <body>
 
     <div class = "nav-bar">
-      <%= link_to "Home", "#" %>
-      <%= link_to "About Me","#" %>
-      <%= link_to "Blogs", "#" %>
-      <%= link_to "Contact", "#" %>
-    </div>
-
-    <div class = "login">
-      <% if current_user %>
-        <%= link_to 'Logout', logout_path, method: "delete" %>
-      <% else %>
-        <%= link_to "Login", new_session_path %>
-      <% end %>
+      <ul>
+        <li><%= link_to "Home", "#" %></li>
+        <li><%= link_to "About Me","#" %></li>
+        <li><%= link_to "Blogs", "#" %></li>
+        <li><%= link_to "Contact", "#" %></li>
+        <ul class = "nav-right">
+          <li><a href="#login">Login</a></li>
+        </ul>
+      </ul>
     </div>
 
     <%= yield %>
-
-    <div  id = "footer" class = "nav-bar">
-      <%= link_to "Home", "#" %>
-      <%= link_to "About Me","#" %>
-      <%= link_to "Blogs", "#" %>
-      <%= link_to "Contact", "#" %>
-    </div>
 
   </body>
 </html>

@@ -1,4 +1,39 @@
-#footer {
-    position:fixed;
-    bottom:0;
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a8a8a8;
+}
+
+
+.nav-bar a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  background-color: #a8a8a8;
+  float: left;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: red
+}
+
+.nav-right{
+  float:right;
+  list-style-type:none;
+}
+
+.nav-right a{
+  color:#a8a8a8
+}
+
+.nav-right a:hover{
+  color:#a8a8a8
 }
