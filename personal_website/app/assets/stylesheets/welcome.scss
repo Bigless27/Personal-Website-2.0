@@ -44,44 +44,41 @@
 }
 
 
-#profile-pic  {
+#profile-pic-container  {
   width:100%;
-  height: 300px;
+  height: 400px;
   background-color: #DCDBDE;
 
   img{
     opacity: 0.9;
     float:right
   }
-}
 
-.welcome-message{
-  float:left;
-  height: 300px;
-  width: 665px;
-  margin-left: 20px;
+  .welcome-message{
+    float:left;
+    width: 600px;
+    margin-left: 20px;
 
 
 
-  h3{
-    padding-left: 40px;
-    padding-right: 8px;
-    padding-top: 60px;
-    color: #ffffff;
-    font-family: 'Lato' sans-serif;
-    font-size: 115px;
-    font-weight: 300;
-    line-height: 58px;
-    margin: 0 0 58px;
+    h3{
+      padding-left: 10px;
+      padding-right: 8px;
+      padding-top: 60px;
+      color: #ffffff;
+      font-family: 'Lato' sans-serif;
+      font-size: 120px;
+      font-weight: 300;
+      line-height: 58px;
+      margin: 0 0 58px;
+    }
 
-  }
-
-  .welcome-info {
-    float:right;
-    font-size: 11px;
-    font-family: sans-serif;
-    position: relative;
-    top: 90px;
-    padding-right: 5px;
+    .welcome-info {
+      float:right;
+      font-size: 11px;
+      font-family: sans-serif;
+      position: relative;
+      top: 197px;
+    }
   }
 }
