@@ -1,0 +1,31 @@
+#about-me {
+  background-color: #8D8EAD;
+  height: 400px;
+  position: relative;
+  bottom: 0px;
+  border: solid 2px red;
+
+  .about-statement {
+    text-align: center;
+    padding-top: 30px;
+    color: #ffffff;
+    font-family: 'Lato' sans-serif;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 58px;
+  }
+
+  .about-info{
+    margin: auto;
+    padding-top: 20px;
+    border: solid 2px red;
+    width: 615px;
+    height: 300px;
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    color: #FFFFFF;
+
+  }
+
+}

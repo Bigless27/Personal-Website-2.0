@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>PersonalWebsite</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>PersonalWebsite</title>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
 
-<%= yield %>
+    <div class = "nav-bar">
+      <ul>
+        <li><%= link_to "Home", "#" %></li>
+        <li><%= link_to "About Me","#" %></li>
+        <li><%= link_to "Blogs", "#" %></li>
+        <li><%= link_to "Contact", "#" %></li>
+        <ul class = "nav-right">
+          <li><a href="#login">Login</a></li>
+        </ul>
+      </ul>
+    </div>
+    <div id = "main-container">
+      <%= yield %>
+    </div>
 
-</body>
+  </body>
 </html>
