@@ -2,22 +2,33 @@
 <html>
   <head>
     <title>PersonalWebsite</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
   </head>
   <body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
 
-    <div class = "nav-bar">
-      <ul>
-        <li><%= link_to "Home", "#" %></li>
-        <li><%= link_to "About Me","#" %></li>
-        <li><%= link_to "Blogs", "#" %></li>
-        <li><%= link_to "Contact", "#" %></li>
-        <ul class = "nav-right">
-          <li><a href="#login">Login</a></li>
-        </ul>
-      </ul>
+    <div class = "navbar navbar-default navbar-fixed-top" role= "navigation">
+      <div class = "navbar-inner">
+        <div class = "container">
+            <ul>
+              <li class = "active"><%= link_to "Home", "#" %></li>
+              <li><%= link_to "About Me","#" %></li>
+              <li><%= link_to "Blogs", "#" %></li>
+              <li><%= link_to "Contact", "#" %></li>
+              <ul class = "nav-right">
+                <li><a href="#login">Login</a></li>
+              </ul>
+            </ul>
+        </div>
+       </div>
+      </div>
     </div>
     <div id = "main-container">
       <%= yield %>
