@@ -5,9 +5,17 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
+    <script type="text/javascript" src="assets/restive.min.js"></script>
   </head>
   <body>
-
+    <script>
+      $(document).ready(function(){
+        $('body').restive({
+            breakpoints: [ '1183'],
+            classes: ['css-1183']
+        })
+      })
+    </script>
     <div class = "nav-bar">
       <ul>
         <li><%= link_to "Home", "#" %></li>
