@@ -1,32 +1,33 @@
-.nav-bar {
+.navbar {
 
-  li {
-    float: left;
-  }
+    li {
+      float: left;
+    }
 
-  ul{
-    border-radius: 3px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #171616;
-  }
+    ul{
+      border-radius: 3px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #171616;
+    }
 
-  a {
-    display: block;
-    padding: 14px 30px;
-    text-align: center;
-    background-color: #171616;
-    float: left;
-    color: #DCDBDE;
-    text-decoration: none;
-    font-family: sans-serif;
-  }
+    a {
+      display: block;
+      padding: 14px 30px;
+      text-align: center;
+      background-color: #171616;
+      float: left;
+      color: #DCDBDE;
+      text-decoration: none;
+      font-family: sans-serif;
+    }
 
-  a:hover {
-    color: red
-  }
+    a:hover {
+      color: red
+    }
+
 }
 
 
