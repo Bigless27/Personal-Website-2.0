@@ -56,11 +56,12 @@
 
 
 #profile-pic-container  {
-  margin-top: 20px;
   border: 2px solid purple;
-  width:100%;
+  width: 1000px;
+  right: 2em;
   height: 400px;
   background-color: #DCDBDE;
+
 
   img{
     top: 0px;
@@ -71,11 +72,8 @@
   .welcome-message{
     border: 2px solid yellow;
     float:left;
-    width: 600px;
+    width: 550px;
     margin-left: 20px;
-
-
-
 
     h3{
       padding-left: 10px;
@@ -97,4 +95,10 @@
       top: 197px;
     }
   }
+}
+
+#yield-container{
+  top: 20px;
+  margin: auto;
+
 }
