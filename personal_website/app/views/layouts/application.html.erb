@@ -10,21 +10,21 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-
-      <div class = "navbar">
-        <ul>
-          <li><%= link_to "Home", "#" %></li>
-          <li><%= link_to "About Me","#" %></li>
-          <li><%= link_to "Blogs", "#" %></li>
-          <li><%= link_to "Contact", "#" %></li>
-          <ul class = "nav-right">
-            <li><a href="#login">Login</a></li>
-          </ul>
-        </ul>
-    </div>
     <div id = "main-container">
-      <%= yield %>
+        <div class = "navbar">
+          <ul>
+            <li><%= link_to "Home", "#" %></li>
+            <li><%= link_to "About Me","#" %></li>
+            <li><%= link_to "Blogs", "#" %></li>
+            <li><%= link_to "Contact", "#" %></li>
+            <ul class = "nav-right">
+              <li><a href="#login">Login</a></li>
+            </ul>
+          </ul>
+       </div>
+      <div id = "yield-container">
+        <%= yield %>
+      </div>
     </div>
-
   </body>
 </html>
