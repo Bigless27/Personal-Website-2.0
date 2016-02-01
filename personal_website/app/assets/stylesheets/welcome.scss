@@ -56,19 +56,24 @@
 
 
 #profile-pic-container  {
+  margin-top: 20px;
+  border: 2px solid purple;
   width:100%;
   height: 400px;
   background-color: #DCDBDE;
 
   img{
+    top: 0px;
     opacity: 0.9;
     float:right
   }
 
   .welcome-message{
+    border: 2px solid yellow;
     float:left;
-    width: 750px;
+    width: 600px;
     margin-left: 20px;
+
 
 
 
