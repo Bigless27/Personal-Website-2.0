@@ -1,5 +1,6 @@
 @charset "UTF-8"
 
+
 /*Layout (global rules for all sizes) */
 
 body {
@@ -21,7 +22,13 @@ body {
   }
 }
 
-/*Large Screen stryle sheets */
+/*Large Screen style sheets */
+
+@media screen and (max-width: 990px){
+  body footer{
+    padding-left: 20px;
+  }
+}
 
 header{
   height: 275px;
@@ -60,4 +67,6 @@ nav{
     margin: 12px 0px 10px 20px;
   }
 }
+
+
 
