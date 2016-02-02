@@ -53,10 +53,10 @@ article{
   .promo{
     width: 33%;
     float: left;
-  }
 
-  .promo-container .promo .content{
-    padding: 0px 30px 0px 70px;
+    .content{
+      padding: 0px 30px 0px 70px;
+    }
   }
 }
 
