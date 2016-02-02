@@ -1,0 +1,48 @@
+@charset "UTF-8"
+
+/*Layout (global rules for all sizes) */
+
+body {
+  margin:0;
+  padding:0;
+
+  header a.logo{
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+  }
+}
+
+/*Large Screen stryle sheets */
+
+header{
+  height: 275px;
+  background: url(spartan-stadium-at-night.jpg) no-repeat right 0px ;
+  opacity: 0.7;
+  background-size: 980px 300px;
+
+  a.logo{
+    width: 150px;
+    height: 85px;
+    top: 28px;
+    right: 30px;
+  }
+}
+
+article{
+  padding: 60px 20px 10px 20px;
+}
+
+.promo-container{
+  padding: 0px 0px 15px 20px;
+
+  .promo{
+    width: 33%;
+    float: left;
+  }
+
+  .promo-container .promo .content{
+    padding: 0px 30px 0px 70px;
+  }
+}

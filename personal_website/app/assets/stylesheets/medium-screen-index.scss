@@ -1,0 +1,9 @@
+$break-small:501px;
+$break-large:800px;
+
+@media only screen and (min-width: $break-small) and (max-width: $break-large){
+
+  body{
+    background-color: red;
+  }
+}

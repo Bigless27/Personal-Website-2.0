@@ -1,0 +1,9 @@
+$break-small:50px;
+$break-large:500px;
+
+@media only screen and (min-width: $break-small) and (max-width: $break-large){
+
+  body{
+    background-color: green;
+  }
+}
