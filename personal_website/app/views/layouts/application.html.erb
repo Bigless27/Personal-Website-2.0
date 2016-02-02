@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PersonalWebsite</title>
+    <title>Personal Website</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,21 +10,36 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <div id = "main-container">
-      <div class = "navbar">
-        <ul>
-          <li><%= link_to "Home", "#" %></li>
-          <li><%= link_to "About Me","#" %></li>
-          <li><%= link_to "Blogs", "#" %></li>
-          <li><%= link_to "Contact", "#" %></li>
-          <ul class = "nav-right">
-            <li><a href="#login">Login</a></li>
-          </ul>
-        </ul>
+    <div class = "page">
+      <header>
+        <a class = "logo" href = '#'>RL</a>
+      </header>
+
+      <article>
+        <h1> Welcome </h1>
+        <p> This is the coolest site ever thank you for taking your time to view it!</p>
+      </article>
+
+      <div class = "promo-container">
+
+        <div class = "promo"></div>
+
+        <div class = "promo"></div>
+
       </div>
-      <div id = "yield-container">
-        <%= yield %>
-      </div>
+
+
+
+      <nav>
+        <a href = "#">About Me</a>
+        <a href = "#">Services</a>
+        <a href = "#">Blog</a>
+        <a href = "#">Contact</a>
+      </nav>
+
+      <footer>
+        &copy: Ryan Lesson
+      </footer>
     </div>
   </body>
 </html>
