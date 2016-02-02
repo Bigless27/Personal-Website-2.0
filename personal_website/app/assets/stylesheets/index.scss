@@ -79,3 +79,19 @@ body {
   }
 }
 
+nav {
+  a{
+    color: #f5a06e;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  a:hover{
+    color: #fff;
+  }
+}
+
+
+

@@ -12,15 +12,21 @@ body {
     background-position: 0px 0px;
     background-repeat: no-repeat;
   }
+
+  nav{
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: #a6430a;
+  }
 }
 
 /*Large Screen stryle sheets */
 
 header{
   height: 275px;
-  background: url(spartan-stadium-at-night.jpg) no-repeat right 0px ;
+  background: url(spartan-stadium-at-night.jpg) no-repeat right 0px;
   opacity: 0.7;
-  background-size: 980px 300px;
 
   a.logo{
     width: 150px;
@@ -46,3 +52,4 @@ article{
     padding: 0px 30px 0px 70px;
   }
 }
+
