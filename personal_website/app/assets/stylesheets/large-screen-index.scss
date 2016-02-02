@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Global Formatting and Style */
+
+body {
+  color: #575c7a;
+  line-height: 1.5em;
+  font-family: arial;
+  font-size: 14px;
+  background: #515673 url(gradient-background.jpg) repeat-x 0px 0px;
+
+  .page{
+    max-width: 980px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    background-color: #fff;
+  }
+}
+
