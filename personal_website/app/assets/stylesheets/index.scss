@@ -48,8 +48,19 @@ body {
     font-size: 0.85em;
     color: #9ba0bd;
     background-color: #575c7a;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 10px;
+
+    .social-media{
+      width: 200px;
+      margin: auto;
+
+      a{
+        padding-left: 20px;
+      }
+    }
   }
+
+
 
   .promo h3{
     font-size: 1.1em;
