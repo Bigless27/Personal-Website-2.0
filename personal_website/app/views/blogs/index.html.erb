@@ -1,8 +1,10 @@
 <div class = "blogs">
 
-  <h3> my blogs </h3>
+  <h3> Blogs </h3>
 
   <ul>
-    <li> <%= link_to 'The First Mission',
-
+    <% @Blogs.each do |blog| %>
+      <li> <%= blog.title %> </li>
+    <% end %>
+  </ul>
 </div>
