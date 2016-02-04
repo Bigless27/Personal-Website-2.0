@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('nav').children().eq(2).on('click', function(event){
+  $('nav').children().eq(3).on('click', function(event){
     console.log("hi")
     $.ajax({
 
