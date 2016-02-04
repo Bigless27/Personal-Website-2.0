@@ -4,7 +4,18 @@
 
   <ul>
     <% @Blogs.each do |blog| %>
-      <li> <%= blog.title %> </li>
+      <li>
+        <a href = "#">
+          <span class "title">
+            <%= blog.title%>
+          </span>
+          <span class = "date">
+            <%= blog.date %>
+          </span>
+        </a>
+      </li>
     <% end %>
   </ul>
 </div>
+
+  <div class = "clear-fix"></div>

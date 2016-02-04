@@ -9,5 +9,33 @@
 
   ul{
     list-style: none;
+
+    a{
+      color: #a6abc5;
+      display: block;
+      margin: 15px;
+      padding: 9px;
+      border: 1px solid #a6ab65;
+      -moz-border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -border-radius: 12px;
+      text-decoration: none;
+
+    }
+
+    a:hover{
+      color: #fff;
+      background-color: rgba(255,255,255,.15);
+
+    }
+
+    .title{
+      float: left;
+
+    }
+
+    .date{
+     float: right;
+    }
   }
 }
