@@ -5,7 +5,7 @@
   <ul>
     <% @Blogs.reverse.each do |blog| %>
       <li>
-        <a href = "#">
+        <a href = "/blogs/<%= blog.id %>" >
           <span class "title">
             <%= blog.title%>
           </span>
