@@ -5,6 +5,8 @@ $break-large:500px;
 @media only screen and (min-width: $break-small) and (max-width: $break-large){
 
   body{
+    background-image: none;
+
     header{
       height: 75px;
       background: url(personal-website-new.png) no-repeat right 0px;
@@ -56,6 +58,11 @@ $break-large:500px;
           padding: 0px 20px 5px 90px;
         }
       }
+    }
+
+    footer{
+      border-top: 1px solid #a6abc5;
+
     }
   }
 }
