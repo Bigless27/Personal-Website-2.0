@@ -1,0 +1,53 @@
+.blogs{
+  margin-top: 43px;
+  border: 2px red solid;
+  background-color: #ccc;
+
+  h3{
+    text-align: center;
+  }
+
+  ul{
+    list-style: none;
+
+    a{
+      font-family: verdana;
+      color:#A6430A ;
+      display: block;
+      margin: 15px;
+      padding: 9px;
+      border: 1px solid #A6430A;
+      -moz-border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -border-radius: 12px;
+      text-decoration: none;
+
+    }
+
+    a:hover{
+      color: #fff;
+      background-color: rgba(255,165,0,.15);
+
+    }
+
+    .title{
+      float: left;
+
+    }
+
+    .date{
+     float: right;
+    }
+  }
+}
+
+/* small screen posiiton*/
+
+@media only screen and (min-width: 50px) and (max-width: 500px){
+
+  .blogs{
+    position: static;
+    margin-top: 0px;
+  }
+
+}

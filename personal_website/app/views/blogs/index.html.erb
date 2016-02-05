@@ -1,0 +1,21 @@
+<div class = "blogs">
+
+  <h3> Blogs </h3>
+
+  <ul>
+    <% @Blogs.reverse.each do |blog| %>
+      <li>
+        <a href = "/blogs/<%= blog.id %>" >
+          <span class "title">
+            <%= blog.title%>
+          </span>
+          <span class = "date">
+            <%= blog.date %>
+          </span>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
+  <div class = "clear-fix"></div>
