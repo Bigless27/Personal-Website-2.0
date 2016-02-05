@@ -7,10 +7,15 @@ $break-large:500px;
   body{
     background-image: none;
 
+    .page{
+        background-color: #e6e6e6;
+    }
+
     header{
       height: 100px;
       background: url(personal-website-pic-small.png) no-repeat right 0px;
       background-size: 490px 90px;
+      background-color: #e6e6e6;
     }
 
     article{
@@ -42,8 +47,8 @@ $break-large:500px;
     }
 
     .promo-container{
-      padding: 0px;
 
+      padding: 0px;
       .promo{
         width: auto;
         float: none;
@@ -61,4 +66,5 @@ $break-large:500px;
 
     }
   }
+
 }
