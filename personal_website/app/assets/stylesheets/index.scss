@@ -78,15 +78,18 @@ body {
   }
 
   .promo.one{
-    color: red;
+    background-image: url(prog-lang.png);
+    background-size: '10x10';
   }
 
   .promo.two{
-    color: red;
+    background-image: url(website-frameworks-new.png);
+
   }
 
   .promo.three{
-    color: red;
+    background-image: url(database.png);
+    background-size: '120x200';
   }
 }
 
