@@ -1,0 +1,27 @@
+@media only screen and (min-width: 50px) and (max-width: 550px){
+
+  .blogs{
+    ul{
+      padding-left: 0px;
+
+      a{
+        width: auto;
+        margin-left: 0px;
+        padding: 0px 0px 0px 0px;
+        border-top: 1px solid #ccc;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -border-radius: 0px;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-bottom: 0px solid white;
+        .date{
+          display: block;
+          float:none;
+          }
+        }
+      }
+    }
+}
+
+

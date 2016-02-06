@@ -7,7 +7,7 @@ body {
   line-height: 1.5em;
   font-family: arial;
   font-size: 14px;
-  background: #515673 repeat-x 0px 0px;
+  background: #515673 url(background_gradient.jpg) repeat-x 0px 0px;
 
   .page{
     max-width: 980px;
@@ -78,15 +78,18 @@ body {
   }
 
   .promo.one{
-    color: red;
+    background-image: url(Ruby-logo.png);
+
   }
 
   .promo.two{
-    color: red;
+    background-image: url(new-web-frameworks.png);
+
   }
 
   .promo.three{
-    color: red;
+    background-image: url(database-background-less.png);
+
   }
 }
 
