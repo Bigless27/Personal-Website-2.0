@@ -78,18 +78,19 @@ body {
   }
 
   .promo.one{
-    background-image: url(prog-lang.png);
-    background-size: '10x10';
+    background-image: url(Ruby-logo.png);
+
   }
 
   .promo.two{
-    background-image: url(website-frameworks-new.png);
+    background-image: url(new-web-frameworks.png);
+    padding-left: 8px
 
   }
 
   .promo.three{
-    background-image: url(database.png);
-    background-size: '120x200';
+    background-image: url(database-background-less.png);
+
   }
 }
 
