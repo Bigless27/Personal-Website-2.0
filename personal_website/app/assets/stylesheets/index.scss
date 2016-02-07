@@ -47,16 +47,23 @@ body {
 
   footer{
     font-size: 0.85em;
-    color: #9ba0bd;
-    background-color: #575c7a;
+    color: #e3e3e3;
+    font-family: verdana;
+    background-color: #9ba0bd;
+    font-weight: bold;
     padding: 10px 10px 10px 10px;
 
     .social-media{
-      width: 200px;
+      width: 225px;
       margin: auto;
 
+      div{
+        padding-left: 0px;
+      }
+
       a{
-        padding-left: 20px;
+        padding-left: 35px;
+        margin: auto;
       }
     }
   }
