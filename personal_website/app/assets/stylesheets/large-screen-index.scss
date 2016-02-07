@@ -37,13 +37,25 @@ article{
 
 #about-me{
   height: 200px;
-  padding: 20px 20px 10px 20px;
-  background-color: rgba(173, 81, 28, 0.15);
+  padding: 20px 0px 10px 0px;
+  /*background-color: rgba(173, 81, 28, 0.15);*/
   font-family: arial;
+
+  .about-me-container{
+    padding: 10px 20px 20px 20px;
+    border: solid rgba(173, 81, 28, 0.15) 1px;
+    background-color: rgba(53, 53, 53, 0.14);
+    border-radius: 4px;
+
+    p{
+      color: #525673;
+    }
+  }
+
 }
 
 .promo-container{
-  padding: 0px 0px 15px 20px;
+  padding: 30px 0px 15px 20px;
   background-color: #fff;
 
   .promo{
