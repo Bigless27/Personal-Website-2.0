@@ -15,20 +15,6 @@ body {
     border-radius: 1px;
   }
 
-
-  .button-container{
-    margin: auto;
-    width: 100px;
-    padding: 10px;
-  }
-
-  .button{
-      img{
-      margin: 0px auto;
-      height: 100px;
-      width: 100px;
-    }
-  }
 }
 
 /*Large Screen style sheets */
@@ -49,7 +35,16 @@ header{
 article{
   padding: 60px 20px 10px 20px;
   background-color: #fff;
+
+  .spartan{
+   background-image: url(spartan-helmet.png);
+   background-size: 40px 40px;
+   height: 70px;
+   width: 905px;
+   padding: 5px 5px 5px 10px;
+  }
 }
+
 
 #about-me{
   height: 200px;
