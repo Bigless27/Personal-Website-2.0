@@ -11,7 +11,23 @@ body {
     width: 100%;
     display: block;
     position: absolute;
-    background-color: #a6430a;
+    background-color: #3C393A;
+    border-radius: 1px;
+  }
+
+
+  .button-container{
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+  }
+
+  .button{
+      img{
+      margin: 0px auto;
+      height: 100px;
+      width: 100px;
+    }
   }
 }
 
