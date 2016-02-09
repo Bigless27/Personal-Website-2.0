@@ -14,12 +14,8 @@ $break-large:500px;
     header{
       height: 100px;
       background: url(personal-website-pic-small.png) no-repeat right 0px;
-      background-size: 490px 90px;
+      background-size: 490px 100px;
       background-color: #fff;
-    }
-
-    article{
-      padding: 20px 20px 10px 20px;
     }
 
     nav{
@@ -46,15 +42,16 @@ $break-large:500px;
       }
     }
 
-    .spartan{
-      width: 345px;
-      padding-left : 10px;
-      background-image: url(spartan-helmet.png) no-repeat;
-    }
 
     #about-me{
-      height: 290px;
-      padding-bottom: 100px;
+      height: 390px;
+      padding-top: 0px;
+      background-color: #e6e6e6;
+
+      .about-me-container{
+
+     /*  padding: 30px 10px 0px 10px;*/
+      }
     }
 
     .promo-container{
