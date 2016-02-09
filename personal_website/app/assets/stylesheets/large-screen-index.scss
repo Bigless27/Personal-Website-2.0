@@ -32,29 +32,15 @@ header{
 
 }
 
-article{
-  padding: 60px 20px 10px 20px;
-  background-color: #fff;
-
-  .spartan{
-   background-image: url(spartan-helmet.png);
-   background-size: 40px 40px;
-   height: 70px;
-   width: 905px;
-   padding: 5px 5px 5px 10px;
-  }
-}
-
 
 #about-me{
   height: 200px;
-  padding: 20px 0px 10px 0px;
+  padding: 43px 0px 10px 0px;
   /*background-color: rgba(173, 81, 28, 0.15);*/
   font-family: arial;
 
   .about-me-container{
     padding: 10px 20px 20px 20px;
-    border: solid rgba(173, 81, 28, 0.15) 1px;
     background-color: rgba(53, 53, 53, 0.14);
     border-radius: 4px;
 
