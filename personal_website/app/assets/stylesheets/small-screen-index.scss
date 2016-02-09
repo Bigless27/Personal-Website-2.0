@@ -44,14 +44,10 @@ $break-large:500px;
 
 
     #about-me{
-      height: 390px;
+      height: 300px;
       padding-top: 0px;
       background-color: #e6e6e6;
 
-      .about-me-container{
-
-     /*  padding: 30px 10px 0px 10px;*/
-      }
     }
 
     .promo-container{
@@ -75,5 +71,25 @@ $break-large:500px;
 
     }
   }
+}
 
+@media screen and (max-width: 460px){
+  body{
+
+    #about-me{
+      height:320px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (max-width:430px){
+  body{
+
+    #about-me{
+      height:340px;
+      padding-bottom: 30px;
+    }
+
+  }
 }
