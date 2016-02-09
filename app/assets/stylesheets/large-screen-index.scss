@@ -1,0 +1,87 @@
+@charset "UTF-8"
+
+
+/*Layout (global rules for all sizes) */
+
+body {
+  margin:0;
+  padding:0;
+
+  nav{
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: #A6430A;
+    border-radius: 1px;
+  }
+
+}
+
+/*Large Screen style sheets */
+
+@media screen and (max-width: 990px){
+  body footer{
+    padding-left: 20px;
+  }
+}
+
+header{
+  height: 275px;
+  background: url(personal-website-pic-large.png) no-repeat right 0px;
+ background-size: 980px 275px;
+
+}
+
+
+#about-me{
+  height: 200px;
+  padding: 43px 0px 10px 0px;
+  /*background-color: rgba(173, 81, 28, 0.15);*/
+  font-family: arial;
+
+  .about-me-container{
+    padding: 10px 20px 20px 20px;
+    background-color: rgba(53, 53, 53, 0.14);
+    border-radius: 4px;
+
+    p{
+      color: #525673;
+    }
+  }
+
+}
+
+.promo-container{
+  padding: 30px 0px 15px 20px;
+  background-color: #fff;
+
+  .promo{
+    width: 33%;
+    float: left;
+    background-position: 0px 3px;
+    background-size: 60px 60px
+  }
+  .content{
+    font-family: verdana;
+    padding: 0px 0px 0px 70px;
+
+    ul{
+      padding: 0px 10px 0px 15px;
+
+      li{
+        font-family: verdana;
+      }
+    }
+  }
+}
+
+nav{
+  top: 275px;
+
+  a{
+    margin: 12px 0px 10px 20px;
+  }
+}
+
+
+

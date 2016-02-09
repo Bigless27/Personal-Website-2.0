@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Website</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maxmimum-scale=1.0, minimum-scale=1.0  initial-scale=1.0"/>
+    <!--[if lt IE]>
+       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class = "page">
+      <header>
+      </header>
+
+      <div class = "yield-container">
+        <%= yield %>
+      </div>
+
+      <nav>
+        <%= link_to "Home", root_path %>
+        <a href = "#">Projects</a>
+        <%= link_to "Blogs", blogs_path %>
+        <a href = "#">Contact</a>
+      </nav>
+
+      <footer>
+        <div class = "social-media">
+          <%= link_to  image_tag('linkedin.png', size: "40x40"), "https://www.linkedin.com/in/ryanlesson" %>
+          <%= link_to image_tag('Octocat.png', size:"40x40"), "https://www.GitHub.com/Bigless27" %>
+          <div> Email: Lessonryan@gmail.com </div>
+        </div>
+
+      </footer>
+    </div>
+  </body>
+</html>
