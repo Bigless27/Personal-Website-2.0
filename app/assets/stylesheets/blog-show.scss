@@ -1,13 +1,17 @@
-.blog-show{
-  margin-top: 43px;
+body{
 
-  h1{
-    padding: 10px 0px 0px 5px;
+  .blog-show{
+    margin-top: 43px;
+    h1{
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    p{
+      padding: 0px 10px 5px 10px;
+    }
   }
 
-  p{
-    padding: 0px 10px 5px 10px;
-  }
 }
 
 
