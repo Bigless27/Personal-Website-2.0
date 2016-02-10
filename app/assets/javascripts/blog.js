@@ -3,9 +3,20 @@ $(document).ready(function(){
     event.preventDefault();
 
     $.ajax({
-      url: event.target.href,
+      url: event.target.href
     }).done(function(response){
       $('.yield-container').html(response);
+    }).fail(function(error){
+      console.log(error)
+    })
+  })
+
+  $('.page').on('click','.blogs a',function(event){
+    event.preventDefault();
+    $.ajax({
+      url: event.currentTarget.href
+    }).done(function(response){
+      $('.blogs').html(response);
     }).fail(function(error){
       console.log(error)
     })
