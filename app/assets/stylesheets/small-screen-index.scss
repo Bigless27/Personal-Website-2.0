@@ -62,6 +62,13 @@ $break-large:500px;
       padding: 0px 10px;
       position: relative;
 
+      ul{
+        height:20px;
+        li{
+          display: inline-block;
+        }
+      }
+
       .promo {
         width: auto;
         float: none;
