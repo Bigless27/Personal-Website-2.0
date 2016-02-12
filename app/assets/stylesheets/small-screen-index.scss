@@ -1,15 +1,11 @@
 @charset "UTF-8";
-$break-small:376px;
+$break-small:50px;
 $break-large:500px;
 
 @media only screen and (min-width: $break-small) and (max-width: $break-large){
 
   body{
     background-image: none;
-
-    .page{
-
-    }
 
     header{
       height: 100px;
@@ -43,7 +39,7 @@ $break-large:500px;
 
 
     #about-me{
-      height: 300px;
+      height: 410px;
       padding-top: 0px;
 
       h1{
@@ -59,7 +55,7 @@ $break-large:500px;
     }
 
     .promo-container{
-      padding: 0px 10px;
+      padding: 0px 20px;
       position: relative;
 
       h3{
@@ -72,19 +68,26 @@ $break-large:500px;
         height:20px;
         li{
           display: inline-block;
+          font-size: 12px
         }
       }
 
       .promo {
         width: auto;
         float: none;
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
         border-top: 1px solid #ccc;
 
         .content{
           padding: 0px 20px 5px 90px;
+
         }
       }
+    }
+    .clear-fix{
+      clear:both;
+      display:block;
+      height:20px;
     }
 
     footer{
