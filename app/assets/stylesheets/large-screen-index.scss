@@ -11,7 +11,6 @@ body {
     width: 100%;
     display: block;
     position: absolute;
-    background-color: #A6430A;
     border-radius: 1px;
   }
 
@@ -36,16 +35,19 @@ header{
 #about-me{
   height: 200px;
   padding: 43px 0px 10px 0px;
+  text-align: center;
   /*background-color: rgba(173, 81, 28, 0.15);*/
   font-family: arial;
 
   .about-me-container{
     padding: 10px 20px 20px 20px;
-    background-color: rgba(53, 53, 53, 0.14);
     border-radius: 4px;
 
+
     p{
-      color: #525673;
+      text-align: justify;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      color: black;
     }
   }
 
@@ -62,11 +64,15 @@ header{
     background-size: 60px 60px
   }
   .content{
-    font-family: verdana;
+
+    li{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
     padding: 0px 0px 0px 70px;
 
     ul{
       padding: 0px 10px 0px 15px;
+      list-style: none;
 
       li{
         font-family: verdana;
