@@ -64,7 +64,10 @@ header{
     background-size: 60px 60px
   }
   .content{
-    font-family: verdana;
+
+    li{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
     padding: 0px 0px 0px 70px;
 
     ul{
