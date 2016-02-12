@@ -1,5 +1,5 @@
 @charset "UTF-8";
-$break-small:50px;
+$break-small:376px;
 $break-large:500px;
 
 @media only screen and (min-width: $break-small) and (max-width: $break-large){
@@ -94,23 +94,5 @@ $break-large:500px;
   }
 }
 
-@media screen and (max-width: 460px){
-  body{
 
-    #about-me{
-      height:320px;
-      padding-bottom: 20px;
-    }
-  }
-}
 
-@media screen and (max-width:430px){
-  body{
-
-    #about-me{
-      height:340px;
-      padding-bottom: 30px;
-    }
-
-  }
-}
