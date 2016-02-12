@@ -19,7 +19,8 @@ body {
   h1 {
     font-size: 2em;
     font-weight: normal;
-    color: #A6430A;
+    font-family: initial;
+    color: #161F59;
     margin: 0 0 0.5em 0;
   }
 
@@ -35,6 +36,7 @@ body {
 
   p{
     font-size: 1.2em;
+    font-family: initial;
     margin: 0 0 .75em 0;
   }
 
@@ -103,7 +105,7 @@ body {
 
 nav {
   a{
-    color: #f5a06e;
+    color: #161F59;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
