@@ -50,15 +50,11 @@ body {
   }
 
   footer{
-    font-size: 0.85em;
-    color: #e3e3e3;
-    font-family: verdana;
     background-color: #9ba0bd;
-    font-weight: bold;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px;
 
     .social-media{
-      width: 225px;
+      width: 180px;
       margin: auto;
 
       div{
@@ -66,7 +62,7 @@ body {
       }
 
       a{
-        padding-left: 35px;
+        padding-left: 25px;
         margin: auto;
       }
     }
