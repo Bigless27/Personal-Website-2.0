@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('nav').children().eq(3).on('click', function(event){
+  $('nav').children().eq(4).on('click', function(event){
     event.preventDefault;
     swal({
       title: "Contact:",
