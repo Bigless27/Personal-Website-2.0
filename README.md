@@ -2,4 +2,4 @@
 
 * Built using Ruby, JavaScript, Rails, AdobePhotoshop, and MediaQueries
 
-[ryanlesson.com](ryanlesson.com)
+[ryanlesson.com](http://ryanlesson.com/)
