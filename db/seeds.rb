@@ -94,7 +94,7 @@ Finally, I’ve been reading so much lately it is literally blowing my mind. Not
 
 Well that’s all for now. One last thing is that I really want to find the time to explore more of Photoshops features. I haven’t really had the time to dive into it because of the time I’m spending learning about the MEAN stack. I will definitely be using Photoshop for the Gendel game and I’m excited to get to it. I will keep you posted on the interview and the Gendel game.")
 
-Blog.create(title: "Coding Alone…", date: "2/23/2016", body: "
+Blog.create(title: "20 Hour Rule", date: "2/23/2016", body: "
   Things have been slow the past couple days because I have been preparing for job interviews. When I say slow I’m talking about how much code I’m writing in a day. While it’s obvious that my productivity has been low back home, I’m excited to really get back to coding like a hacker tomorrow. Why all of a sudden will I be able to get back in my zone again? Well tomorrow I will be visiting the Chicago Dev Bootcamp and I can’t be more excited to meet everyone at the campus. Coding and learning on your own is, for lack of a better term, difficult to say the least.\n
 
 I’ve been making very minimum progress on my Gendel game lately. I attribute this to getting ready for the interview that I had this morning. I have been reading a lot of books lately on different concepts and patterns in Ruby and Javascript. I even made flash cards so I can be able to really put these new concepts to memory. Honestly I’ve been reviewing this flash cards every morning and it reminds me of studying for a college final. \n
