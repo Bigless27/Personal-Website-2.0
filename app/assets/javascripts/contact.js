@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   $('nav').children().eq(4).on('click', function(event){
     event.preventDefault;
     swal({
