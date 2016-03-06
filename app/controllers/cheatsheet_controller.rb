@@ -1,0 +1,2 @@
+class CheatsheetController < ApplicationController
+end
