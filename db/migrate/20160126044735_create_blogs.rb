@@ -1,4 +1,4 @@
-class CreateBlogs < ActiveRecord::Migration
+Blogclass CreateBlogs < ActiveRecord::Migration
   def change
     create_table :blogs do |t|
       t.string :title,  null: false
