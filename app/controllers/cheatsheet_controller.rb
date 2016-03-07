@@ -5,7 +5,6 @@ class CheatsheetController < ApplicationController
   end
 
   def show
-
-
+    @Cheatsheet = Cheatsheet.find(params[:id])
   end
 end
