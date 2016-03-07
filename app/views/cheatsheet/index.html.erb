@@ -2,8 +2,10 @@
 
   <h3 class = "title"> Cheat Sheet </h3>
 
+  <% @Cheatsheet.each do |sheet| %>
   <ul>
-    <li><%=link_to 'PHP', </li>
+    <li><%= link_to sheet.title, "/cheetsheet/#{sheet.id}" %>
+    </li>
   </ul>
-
+  <% end %>
 </div>
