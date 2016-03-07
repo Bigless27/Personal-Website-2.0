@@ -6,5 +6,6 @@ class CheatsheetController < ApplicationController
 
   def show
 
+
   end
 end

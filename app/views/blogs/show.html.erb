@@ -3,9 +3,11 @@
   <h1> <%= @Blog.title %> </h1>
   <p> <%= simple_format(@Blog.body) %></p>
 
-  <ul>
-    <li> <%link_to%> </li>
-  </ul>
+  <% @Urls.each do |url| %>
+    <ul>
+      <li> <%=link_to url.title, url.link%> </li>
+    </ul>
+  <% end %>
 
   <%= link_to "Back", blogs_path %>
 </div>
