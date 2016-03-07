@@ -1,0 +1,29 @@
+#cheatsheet{
+  margin-top: 43px;
+
+  .title{
+    text-align: center;
+  }
+
+  ul{
+    list-style: none;
+
+    a{
+      font-family: verdana;
+      color:black;
+      display: block;
+      margin: 15px;
+      padding: 9px;
+      border: 1px solid #6BC6F1;
+      -moz-border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -border-radius: 12px;
+      text-decoration: none;
+    }
+     a:hover{
+      color: #fff;
+      background-color: rgba(81,86,115,.15);
+    }
+
+  }
+}

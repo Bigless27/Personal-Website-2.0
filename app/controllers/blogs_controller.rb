@@ -11,6 +11,7 @@ class BlogsController < ApplicationController
 
   def show
     @Blog = Blog.find(params[:id])
+    @Urls = @Blog.urls
     if request.xhr?
       render 'show', layout: false
     else

@@ -1,0 +1,11 @@
+<div id = "cheatsheet">
+
+  <h3 class = "title"> Cheat Sheet </h3>
+
+  <% @Cheatsheet.each do |sheet| %>
+  <ul>
+    <li><%= link_to sheet.title, "/cheatsheet/#{sheet.id}" %>
+    </li>
+  </ul>
+  <% end %>
+</div>

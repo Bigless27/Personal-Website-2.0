@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160204220429) do
+ActiveRecord::Schema.define(version: 20160307002457) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,5 +23,23 @@ ActiveRecord::Schema.define(version: 20160204220429) do
     t.datetime "updated_at", null: false
     t.string   "date"
   end
+
+  create_table "cheatsheets", force: :cascade do |t|
+    t.string   "title",      null: false
+    t.string   "body",       null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "urls", force: :cascade do |t|
+    t.string   "title"
+    t.integer  "linkable_id"
+    t.string   "linkable_type"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.string   "link"
+  end
+
+  add_index "urls", ["linkable_type", "linkable_id"], name: "index_urls_on_linkable_type_and_linkable_id", using: :btree
 
 end
