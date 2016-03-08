@@ -3,7 +3,7 @@ $(document).ready(function(){
     event.preventDefault;
     swal({
       title: "Please check out my Github for most recent projects",
-      text: "<a style='color:#575c7a' href='https://www.GitHub.com/Bigless27'>Click Here<a>",
+      text: "<a style='color:#575c7a' target='_blank'  href='https://www.GitHub.com/Bigless27'>Click Here<a>",
       html: true
     })
   })
