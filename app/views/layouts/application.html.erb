@@ -24,11 +24,11 @@
 
       <nav>
         <%= link_to "Home", root_path %>
-        <a href = "#">Projects</a>
+        <%= link_to "Projects", '#' %>
         <%= link_to "Blogs", blogs_path %>
         <%= link_to "Resume", '#'%>
         <%= link_to "Cheatsheets", cheatsheet_index_path %>
-        <a href = "#">Contact</a>
+        <%= link_to "Contact", '#'%>
       </nav>
 
       <footer>
@@ -36,6 +36,9 @@
           <%= link_to  image_tag('linkedin.png', size: "40x40"), "https://www.linkedin.com/in/ryanlesson" %>
           <%= link_to image_tag('Octocat.png', size:"40x40"), "https://www.GitHub.com/Bigless27" %>
         </div>
+        <span>
+          <%= link_to "Secret", secret_index_path, class: "secret" %>
+        </span>
 
       </footer>
     </div>
